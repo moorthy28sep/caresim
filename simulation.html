@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>CareSim</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="css/jquery.modal.min.css">
+<link rel="stylesheet" href="css/styles.css">
+
+
+<body class="">
+
+
+<div class="header">
+	<img src="images/CareSimLogo.png" alt="CareSim Logo" class="careSimLogo">
+	
+	<div class="topNav">
+		<div class="avathar"></div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">About Us</a></li>			
+		</ul>
+		
+	</div>
+</div>
+<div class="content simContentBg"> 
+<a href="simulation-dashboard.html" class="simButton">SIMULATIONS</a>
+<ul class="subNav">
+<li>MRN: 1234567</li>
+<li>Name: John</li>
+<li>Gender: Male</li>
+<li>Age: 54</li>
+</ul>
+
+
+<div class="mainContent">
+	<div class="floatLeft">
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex2" rel="modal:open"><img src="images/Heart.gif" alt="Heart" class="Heart" /></a></div>
+		<div class="sectionContent">
+			<h2>Vitals</h2>
+			<p class="ecg"></p>
+		</div>
+		<div id="ex2" class="modal">
+			<div class="modalHeader">
+			<h2>Vitals</h2>
+			
+</div>
+
+<div class="modalBody">
+	<img src="images/vitals.gif" alt="Vitals" width="500px" height="350px" />
+</div>
+         <!-- <div class="container" id="tab1C"><div class="modalBody"><div style="float: left; width: 50%;">
+					<ul>
+						<li>Rapid choatic atrial discharging </li>
+						<li>No regularity in the P-wave or atrial morphology</li>
+						<li>Irregularly irregular and unpredictable QRS to QRS coupling intervals</li>
+					</ul>
+					</div></div></div>
+          <div class="container" id="tab2C"><div class="modalBody">2Some content</div></div>
+          <div class="container" id="tab3C"><div class="modalBody">3Some content</div></div>
+          <div class="container" id="tab4C"><div class="modalBody">4Some content</div></div>
+         
+		 -->
+		</div>
+	</div>
+	<br class="clearBoth" />
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex1" rel="modal:open"><img src="images/MRI.gif" alt="MRI" class="MRI"  /></a></div>
+		<div class="sectionContent">
+			<h2>Medical Imaging</h2>
+			<p class="para"><strong>ECG:</strong> Mild Concentric left ventricular hypertrophy and mild left atrial enlargement</p>
+		</div>
+		 <div id="ex1" class="modal">
+			<div class="modalHeader">
+				<h2>Medical Imaging</h2>
+				<ul id="tabs">
+
+      <li><a id="tab1">ECG</a></li>
+      <li><a id="tab2">Echocardiagram</a></li>
+      <li><a id="tab3">Cardiac MRA</a></li>
+      <li><a id="tab4">CT Scan</a></li>
+
+</ul>
+          
+			</div>
+			
+			
+				<div class="container" id="tab1C">
+				<div class="modalBody">
+					<div style="float: left; width: 50%;">
+					<ul>
+						<li>Rapid choatic atrial discharging </li>
+						<li>No regularity in the P-wave or atrial morphology</li>
+						<li>Irregularly irregular and unpredictable QRS to QRS coupling intervals</li>
+					</ul>
+					</div>
+					<div style="float: left; width: 50%;">
+						<img src="images/ecg.jpg" alt="ecg" width="230px" height= "180px"/>
+					</div>
+					<br class="clearBoth" />
+					</div>
+			
+				</div>
+          
+		
+		  <div class="container" id="tab2C">
+		  
+			<div class="modalBody">
+			
+				
+					<div style="float: left; width: 50%;">
+					<ul>
+						<li>Echocardiogram done in last month-showed disappearance of atrial reverse flow, a decrease in systolic flow with a greater diastolic than systolic flow, a prolonged onset of systolic flow and the appearance of an early systolic reverse flow.</li>
+						<li>A repeat echocardiogram performed in the office demonstrates an ejection fraction of 20% with global hypokinesis but normal left ventricular systolic and diastrolic dimensions with normal pulmonary arterial systolic presure.</li>
+					</ul>
+					</div>
+					<div style="float: left; width: 50%;">
+						<img src="images/echocardiogram.gif" alt="ecg" width="230px" height= "180px"/>
+					</div>
+					<br class="clearBoth" />
+					
+			
+				</div>
+				
+		  </div>
+          <div class="container" id="tab3C">
+		  
+				<div class="modalBody">
+			
+				
+					<div style="float: left; width: 50%;">
+					<ul>
+						<li>Isotropic voxel data from CCT scan can be reformatted into transverse and coronal multiplanar images.</li>
+
+<li>3D volumn rendering image of CCT reveals stereoscopic view inside LA chamber and PV ostium.</li>
+
+<li>Typical anatomy comprises four PVs with seperate ostia.</li>
+
+<li>Atypical PV anaotmy mainly comprises common ostia for left PVs and additional right middle PV (arrow).</li>
+					</ul>
+					</div>
+					<div style="float: left; width: 50%;">
+						<img src="images/cardiacMRI.gif" alt="ecg" width="230px" height= "180px"/>
+					</div>
+					<br class="clearBoth" />
+					
+			
+				</div>
+			
+		  </div>
+          <div class="container" id="tab4C">
+			
+			<div class="modalBody">
+			
+				
+					<div style="float: left; width: 50%;">
+					<ul>
+						<li>Assessment of left atrial appendage: A second scan to differentiate between true thrombus and pseudothrombus.</li>
+
+<li>The latter is identified by the gain in contrast in the delayed second scan, its mean density, and the similarity of its density to that of the rest of the atrium.</li>
+					</ul>
+					</div>
+					<div style="float: left; width: 50%;">
+						<img src="images/CT.png" alt="CT" width="230px" height= "320px"/>
+					</div>
+					<br class="clearBoth" />
+					
+			
+				</div>
+			
+		  </div>
+			</div>   
+		</div>
+	
+	<br class="clearBoth" />
+	 <div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex3" rel="modal:open"><img src="images/LabResults.gif" alt="LabResults" class="LabResults"  /></a></div>
+		<div class="sectionContent">
+			<h2>Lab Results</h2>
+			<p class="para"><strong>Electrolytes:</strong> k+: 3.1mmol/dl </br> Na+: 140 mmol/dl</p>
+		</div>
+		
+		<div id="ex3" class="modal">
+			<div class="modalHeader">
+			<h2>Lab Results</h2>
+			
+				</div>
+
+				<div class="modalBody" style="text-align: center">
+					<img src="images/labreport.gif" alt="labreport" width="300px" height="350px" />
+				</div>
+		</div>
+	</div>
+	<br class="clearBoth" />
+	<div class="sectionWrapper">	
+		<div class="sectionIcon"><a href="#ex4" rel="modal:open"><img src="images/DNAnew.gif" alt="DNAnew" class="DNAnew"  /></a></div>
+		<div class="sectionContent">
+			<h2>Genomics</h2>
+			<p class="para">Single gene KCNQ1 inherited in an autosomal dominant pattern</p>
+		</div>
+		<div id="ex4" class="modal">
+			<div class="modalHeader">
+			<h2>Genomics</h2>
+			
+				</div>
+
+				<div class="modalBody">					
+					<ul>
+						<li>A 54-year-old male presents for his annual physical examination and notes increasing fatigue over the prior 3 months.</li>
+						<li>His history is notable for longstanding, but now well-controlled, systolic hypertension.</li>
+						<li>The remainder of his examination is completely normal with no clinical evidence of right- or left-side congestive heart failure.</li>
+						<li>He was afebrile, tachycardic (140 bpm), with moist skin, and his physical examination revealed no significate signs from the lungs and the abdomen.</li>
+						<li>The patient has family history of coronary artery disease.</li>
+						<li>His review of systems is notable only for fatigue without complaint of snoring, chest pain, palpitations, weight gain or loss, orthopnea, dyspnea, peripheral edema or syncope.</li>
+					</ul>					
+				</div>
+		</div>
+	</div>
+	
+	<br class="clearBoth" />
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex5" rel="modal:open"><img src="images/Disease.gif" alt="Disease" class="Disease"  /></a></div>
+		<div class="sectionContent">
+			<h2>Current Diagnosis</h2>
+			<p class="para"><strong>History of:</strong> Hypertension, Heart Disease, Thyroid Disease, Hyperlipidemia </p>
+		</div>
+		<div id="ex5" class="modal">
+			<div class="modalHeader">
+			<h2>Current Diagnosis</h2>
+			
+				</div>
+
+				<div class="modalBody">					
+					<ul>
+						<li>A 54-year-old male presents for his annual physical examination and notes increasing fatigue over the prior 3 months.</li>
+						<li>His history is notable for longstanding, but now well-controlled, systolic hypertension.</li>
+						<li>The remainder of his examination is completely normal with no clinical evidence of right- or left-side congestive heart failure.</li>
+						<li>He was afebrile, tachycardic (140 bpm), with moist skin, and his physical examination revealed no significate signs from the lungs and the abdomen.</li>
+						<li>The patient has family history of coronary artery disease.</li>
+						<li>His review of systems is notable only for fatigue without complaint of snoring, chest pain, palpitations, weight gain or loss, orthopnea, dyspnea, peripheral edema or syncope.</li>
+					</ul>					
+				</div>
+		</div>
+	</div>
+	 
+</div>
+
+
+
+
+</div>
+
+	<div class="floatRight">
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex6" rel="modal:open"><img class="exclamation" src="images/exclamation.png" alt="exclamation"  /></a></div>
+		<div class="sectionContent">
+			<h2>Risk Factors</h2>
+			<p class="para">Diabetes, Lung Disease and sleep apnea, Drinking alcohol, Smoking</p>
+		</div>
+		<div id="ex6" class="modal">
+			<div class="modalHeader">
+			<h2>Risk Factors</h2>
+			
+				</div>
+				<div class="modalBody">
+					
+					<ul>
+						<li>Age - 54 years</li>
+						<li>Heart Disease History - No history of Heart attack</li>
+						<li>History of High blood pressure</li>
+						<li>Lung disease, such as chronic obstructive pulmonary disease (COPD).</li>
+						<li>Obesity, diabetes, and metabolic syndrome</li>
+					</ul>					
+				</div>
+		</div>
+	</div>
+	<br class="clearBoth" />
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex7" rel="modal:open"><img class="medicine" src="images/medicine.png" alt="medicine"  /></a></div>
+		<div class="sectionContent">
+			<h2>Current Medication</h2>
+			<p class="para">Atorvastatin 10 mg/d Lisinopril 10 mg/d</p>
+		</div>
+		<div id="ex7" class="modal">
+			<div class="modalHeader">
+			<h2>Current Medication</h2>
+			
+				</div>
+
+				<div class="modalBody">					
+					<ul>
+						<li>A 54-year-old male presents for his annual physical examination and notes increasing fatigue over the prior 3 months.</li>
+						<li>His history is notable for longstanding, but now well-controlled, systolic hypertension.</li>
+						<li>The remainder of his examination is completely normal with no clinical evidence of right- or left-side congestive heart failure.</li>
+						<li>He was afebrile, tachycardic (140 bpm), with moist skin, and his physical examination revealed no significate signs from the lungs and the abdomen.</li>
+						<li>The patient has family history of coronary artery disease.</li>
+						<li>His review of systems is notable only for fatigue without complaint of snoring, chest pain, palpitations, weight gain or loss, orthopnea, dyspnea, peripheral edema or syncope.</li>
+					</ul>					
+				</div>
+		</div>
+	</div>
+	<br class="clearBoth" />
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex8" rel="modal:open"><img class="insurance" src="images/insurance.png" alt="insurance" /></a></div>
+		<div class="sectionContent">
+			<h2>Nutrition</h2>
+			<p class="para">Nut Allergy<br>Antibiotic Allergy<br>Nut Allergy</p>
+		</div>
+		<div id="ex8" class="modal">
+			<div class="modalHeader">
+			<h2>Nutrition</h2>			
+				</div>			
+					<div class="modalBody">					
+					<ul>
+						<li>Heavy drinking remains a consistent risk factor for Atrial Fibrillation</li>
+						<li>Increase in use of caffaine</li>
+						<li>Nut Allergies</li>
+					</ul>					
+				</div>
+				
+		</div>
+	</div>
+	
+	<br class="clearBoth" />
+	<div class="sectionWrapper">
+		<div class="sectionIcon"><a href="#ex9" rel="modal:open"><img class="scholar"  src="images/scholar.png" alt="scholar"  /></a></div>
+		<div class="sectionContent">
+			<h2>Social Determinants</h2>
+			<p class="para"><strong>Alcoholic Beverages</strong> - Occasionally <br/><strong>Smoking</strong> - Occasionally <br>Stress related work profile </p>
+		</div>
+		<div id="ex9" class="modal">
+			<div class="modalHeader">
+			<h2>Social Determinants</h2>
+			
+				</div>
+
+				<div class="modalBody">					
+					<ul>
+						<li>A 54-year-old male presents for his annual physical examination and notes increasing fatigue over the prior 3 months.</li>
+						<li>His history is notable for longstanding, but now well-controlled, systolic hypertension.</li>
+						<li>The remainder of his examination is completely normal with no clinical evidence of right- or left-side congestive heart failure.</li>
+						<li>He was afebrile, tachycardic (140 bpm), with moist skin, and his physical examination revealed no significate signs from the lungs and the abdomen.</li>
+						<li>The patient has family history of coronary artery disease.</li>
+						<li>His review of systems is notable only for fatigue without complaint of snoring, chest pain, palpitations, weight gain or loss, orthopnea, dyspnea, peripheral edema or syncope.</li>
+					</ul>					
+				</div>
+		</div>
+	</div>
+	
+</div> 
+</div>
+
+</div>
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.modal.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("#fade").modal({
+  fadeDuration: 1000,
+  fadeDelay: 0.50
+});
+  
+
+$('#tabs li a:not(:first)').addClass('inactive');
+$('.container').hide();
+$('.container:first').show();
+    
+$('#tabs li a').click(function(){
+    var t = $(this).attr('id');
+  if($(this).hasClass('inactive')){ //this is the start of our condition 
+    $('#tabs li a').addClass('inactive');           
+    $(this).removeClass('inactive');
+    
+    $('.container').hide();
+    $('#'+ t + 'C').fadeIn('slow');
+ }
+});
+
+
+
+});
+ 
+</script>
+</body>
+</html>
