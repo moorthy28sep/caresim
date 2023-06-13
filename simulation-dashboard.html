@@ -42,107 +42,561 @@
 <div class="simLeftSection">
 	<div class="backBtn"><a href="simulation.html"><img src="images/arrow.jpg" alt="Back Button" width="30px" height="20px" /></a></div>
 	<div class="simLeftHeader">SIMULATIONS</div>
-	<div class="simulationSlot"></div>
+	<div class="simulationSlot"><img src="images/simImage.png" alt="SIMULATIONS" /></div>
 	<div class="leftNav">
 
 <div id="firstpane" class="menu_list"> <!--Code for menu starts here-->
-<p class="menu_head">Medical Therapy</p>
+<p class="menu_head"><span class="medThe"></span> <span class="notes"></span>Medical Therapy</p>
 <div class="menu_body"> 
-	<div class="planWrapper">
+
+<div class="planWrapperParent">
+	<div class="planWrapper MedicalTherapyPlan1">
 		<div class="plan">Plan 1</div>
 		<div class="medicines">Aspirin</div>
-		<div class="dose">125 mg/ daily</div>
-		<div class="action">^</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
 		<div class="saved"></div>
 	</div>
-	
+	<br class="clearBoth" />
+</div>	
+
+<div class="planWrapperParent">
 	<div class="planWrapper">
 		<div class="plan">Plan 2</div>
 		<div class="medicines">Aspirin</div>
-		<div class="dose">125 mg/ daily</div>
-		<div class="action">^</div>
+		<div class="dose">
+			 <select class="dropdown">
+			 <option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+		</div>
+		
 		<div class="saved"></div>
 	</div>
-	
+	<div class="planWrapper">
+		<div class="plan">&nbsp;</div>
+		<div class="medicines">Warfarin</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+		 <option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select> 
+
+</div>
+		<div class="saved"></div>
+	</div>
+<br class="clearBoth" />
+</div>
+<div class="planWrapperParent">	
 	<div class="planWrapper">
 		<div class="plan">Plan 3</div>
-		<div class="medicines">Aspirin</div>
-		<div class="dose">125 mg/ daily</div>
-		<div class="action">^</div>
+		<div class="medicines">Warfarin</div>
+		<div class="dose">
+		
+		<select class="dropdown">
+		<option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+			
+</div>
 		<div class="saved"></div>
 	</div>
-	
+	<br class="clearBoth" />
+</div>
+<div class="planWrapperParent">	
 	<div class="planWrapper">
 		<div class="plan">Plan 4</div>
-		<div class="medicines">Aspirin</div>
-		<div class="dose">125 mg/ daily</div>
-		<div class="action">^</div>
+		<div class="medicines">Dabigatarn</div>
+		<div class="dose">
+		
+		<select class="dropdown">
+		<option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
 		<div class="saved"></div>
 	</div>
 	
+	<div class="planWrapper">
+		<div class="plan">&nbsp;</div>
+		<div class="medicines">Rivaroxaban</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+		 <option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select> 
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+<div class="planWrapperParent">	
 	<div class="planWrapper">
 		<div class="plan">Plan 5</div>
-		<div class="medicines">Aspirin</div>
-		<div class="dose">125 mg/ daily</div>
-		<div class="action">^</div>
+		<div class="medicines">Apixaban</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+		 <option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
 		<div class="saved"></div>
 	</div>
-	
+	<div class="planWrapper">
+		<div class="plan">&nbsp;</div>
+		<div class="medicines">Edoxaban</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+		 <option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+<div class="planWrapperParent">	
 	<div class="planWrapper">
 		<div class="plan">Plan 6</div>
-		<div class="medicines">Aspirin</div>
-		<div class="dose">125 mg/ daily</div>
-		<div class="action">^</div>
+		<div class="medicines cusDropDown" style="width: 196px; margin-left: -6px; margin-top: -5px;">
+		<select class="dropdown mediciness">
+			<option value="0" selected>Custom</option>
+			<option value="1">Asprin</option>
+			<option value="2">Warfarin</option>
+			<option value="3">Dabigatarn</option>
+			<option value="4">Rivaroxaban</option>
+			<option value="5">Apixaban</option>
+			<option value="6">Edoxaban</option>
+		</select>
+		
+		
+		 <select class="dropdown doses">
+			<option selected value="default">Dose</option>
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
 		<div class="saved"></div>
+		
+		<div style="float: left; margin-left:84px; margin-top: 5px; clear: both;" class="displayNone newMedicines1">
+			<div class="medicines cusDropDown" style="width: 196px; margin-left: -10px; margin-top: -5px;">
+				<select class="dropdown mediciness">
+					<option value="1">Warfarin</option>
+					<option value="2">Dabigatarn</option>
+					<option value="3">Rivaroxaban</option>
+					<option value="4">Apixaban</option>
+					<option value="5">Edoxaban</option>
+				</select>
+
+
+				<select class="dropdown doses">
+					<option selected value="default">Dose</option>
+					<option value="0">125 mg/ daily</option>
+					<option value="1">325 mg/ daily</option>
+					<option value="2">500 mg/ daily</option>
+				</select>
+
+			</div>		
+		</div>
+		
+		<div style="float: left; margin-left:84px; margin-top: 5px;" class="displayNone newMedicines2">
+			<div class="medicines cusDropDown" style="width: 196px; margin-left: -10px; margin-top: -5px;">
+				<select class="dropdown mediciness">
+					
+					<option value="1">Dabigatarn</option>
+					<option value="2">Rivaroxaban</option>
+					<option value="3">Apixaban</option>
+					<option value="4">Edoxaban</option>
+				</select>
+
+
+				<select class="dropdown doses">
+					<option selected value="default">Dose</option>
+					<option value="0">125 mg/ daily</option>
+					<option value="1">325 mg/ daily</option>
+					<option value="2">500 mg/ daily</option>
+				</select>
+
+			</div>
+		
+		</div>
+		
+		<div style="float: left; margin-left:84px; margin-top: 5px;" class="displayNone newMedicines3">
+			<div class="medicines cusDropDown" style="width: 196px; margin-left: -10px; margin-top: -5px;">
+				<select class="dropdown mediciness">									
+					<option value="1">Rivaroxaban</option>
+					<option value="2">Apixaban</option>
+					<option value="3">Edoxaban</option>
+				</select>
+
+
+				<select class="dropdown doses">
+					<option selected value="default">Dose</option>
+					<option value="0">125 mg/ daily</option>
+					<option value="1">325 mg/ daily</option>
+					<option value="2">500 mg/ daily</option>
+				</select>
+
+			</div>
+		
+		</div>
+		
+		<div style="float: left; margin-left:84px; margin-top: 5px;" class="displayNone newMedicines4">
+			<div class="medicines cusDropDown" style="width: 196px; margin-left: -10px; margin-top: -5px;">
+				<select class="dropdown mediciness" style="width:94px">														
+					<option value="1">Apixaban</option>
+					<option value="2">Edoxaban</option>
+				</select>
+
+
+				<select class="dropdown doses">
+					<option selected value="default">Dose</option>
+					<option value="0">125 mg/ daily</option>
+					<option value="1">325 mg/ daily</option>
+					<option value="2">500 mg/ daily</option>
+				</select>
+
+			</div>
+		
+		</div>
+		
+		<div style="float: left; margin-left:84px; margin-top: 5px;" class="displayNone newMedicines5">
+			<div class="medicines cusDropDown" style="width: 196px; margin-left: -10px; margin-top: -5px;">
+				<select class="dropdown mediciness" style="width:94px">																			
+					<option value="2">Edoxaban</option>
+				</select>
+				<select class="dropdown doses">
+					<option selected value="default">Dose</option>
+					<option value="0">125 mg/ daily</option>
+					<option value="1">325 mg/ daily</option>
+					<option value="2">500 mg/ daily</option>
+				</select>
+
+			</div>
+		
+		</div>
+		<br class="clearBoth" />
+		<div style="margin-left:84px; margin-top: 5px;" class="cusButton displayNone"><span class="AddMedication">Add Medication</span> | <span class="delete">Delete</span></div>
 	</div>
-	
+	<br class="clearBoth" />
+</div>	
 	
 	<br class="clearBoth" />	 
 </div>
-<p class="menu_head">Surgery Approach</p>
-<div class="menu_body"> <a href="#">Link-1</a> <a href="#">Link-2</a> <a href="#">Link-3</a> </div>
-<p class="menu_head">Physical Therapy</p>
-<div class="menu_body"> <a href="#">Link-1</a> <a href="#">Link-2</a> <a href="#">Link-3</a> </div>
-<p class="menu_head">Nutritional Therapy</p>
-<div class="menu_body"> <a href="#">Link-1</a> <a href="#">Link-2</a> <a href="#">Link-3</a> </div>
-<p class="menu_head">Post Discharge Plan</p>
-<div class="menu_body"> <a href="#">Link-1</a> <a href="#">Link-2</a> <a href="#">Link-3</a> </div>
-<p class="menu_head">Hospital Ops. Simulations</p>
-<div class="menu_body"> <a href="#">Link-1</a> <a href="#">Link-2</a> <a href="#">Link-3</a> </div>
+<p class="menu_head"><span class="surApproach"></span> <span class="notes"></span>Surgery Approach</p>
+<div class="menu_body"> 
+	<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Plan 1</div>
+		<div class="medicines">Aspirin</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Plan 2</div>
+		<div class="medicines">Aspirin</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+ </div>
+<p class="menu_head"><span class="phyThe"></span> <span class="notes"></span>Physical Therapy</p>
+<div class="menu_body"> 
+<div class="planWrapperParent phyThePlan1">
+	<div class="planWrapper">
+		<div class="plan">Plan 1</div>
+		<div class="medicines">Marathons</div>
+		<div class="dose">
+		
+		 <select class="dropdown phyTheDD">
+		 <option selected value="default">Dose</option>
+			<option value="0">5 hrs/week</option>
+			<option value="1">6 hrs/week</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent phyThePlan2">
+	<div class="planWrapper">
+		<div class="plan">Plan 2</div>
+		<div class="medicines">Brisk Walk</div>
+		<div class="dose">
+		
+		 <select class="dropdown phyTheDD">
+		 <option selected value="default">Dose</option>
+			<option value="0">5 hrs/week</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent phyThePlan3">
+	<div class="planWrapper">
+		<div class="plan">Plan 3</div>
+		<div class="medicines">Moderate Exercise</div>
+		<div class="dose">
+		
+		 <select class="dropdown phyTheDD">
+		 <option selected value="default">Dose</option>
+			<option value="0">4 hrs/week</option>
+			<option value="1">6 hrs/week</option>
+			<option value="2">7 hrs/week</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+
+ </div>
+<p class="menu_head"><span class="nutThe"></span> <span class="notes"></span>Nutritional Therapy</p>
+<div class="menu_body">
+<div class="planWrapperParent nutThePlan1">
+	<div class="planWrapper">
+		<div class="plan">Plan 1</div>
+		<div class="medicines">Olive Oil</div>
+		<div class="dose">
+		
+		 <select class="dropdown nutTheDD">
+			<option selected value="default">Dose</option>
+			<option value="0">4 tbsp/day</option>
+			<option value="1">6 tbsp/day</option>
+			<option value="2">10 tbsp/day</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent nutThePlan2">
+	<div class="planWrapper">
+		<div class="plan">Plan 2</div>
+		<div class="medicines">Seafood</div>
+		<div class="dose">
+		
+		 <select class="dropdown nutTheDD">
+			<option selected value="default">Dose</option>
+			<option value="0">2 times/week</option>
+			<option value="1">4 times/week</option>
+			<option value="2">6 times/week</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent nutThePlan3">
+	<div class="planWrapper">
+		<div class="plan">Plan 3</div>
+		<div class="medicines">Legumes</div>
+		<div class="dose">
+		
+		 <select class="dropdown nutTheDD">
+			<option selected value="default">Dose</option>
+			<option value="0">3 times/week</option>
+			<option value="1">5 times/week</option>			
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+ </div>
+<p class="menu_head"><span class="postDis"></span> <span class="notes"></span>Post Discharge Plan</p>
+<div class="menu_body"> 
+<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Medicine</div>
+		<div class="medicines">Cefixime</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option value="0">200 mg/twice daily</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Follow Up</div>
+		<div class="medicines">&nbsp;</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option value="0">4 months later</option>
+			<option value="1">5 months later</option>
+			<option value="2">6 months later</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Advice</div>
+		<div class="medicines">&nbsp;</div>
+		<div class="dose">
+		
+		&nbsp;
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+
+</div>
+<p class="menu_head"><span class="hospitalOps"></span> <span class="notes"></span>Hospital Ops. Simulations</p>
+<div class="menu_body"> 
+<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Plan 1</div>
+		<div class="medicines">Aspirin</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+
+<div class="planWrapperParent">
+	<div class="planWrapper">
+		<div class="plan">Plan 2</div>
+		<div class="medicines">Aspirin</div>
+		<div class="dose">
+		
+		 <select class="dropdown">
+			<option value="0">125 mg/ daily</option>
+			<option value="1">325 mg/ daily</option>
+			<option value="2">500 mg/ daily</option>
+		</select>
+
+</div>
+		<div class="saved"></div>
+	</div>
+	<br class="clearBoth" />
+</div>
+</div>
 </div>
 <!--Code for menu ends here--> 
 
 
 	</div>
+	
+	<div class="navBtmLink"><a href="#">Treatment Plan</a></div>
 </div>
 
 <div class="sDmainContent">
 	<div class="cardSection">
 		<p class="marginBtm15px">View Simulation Effects on Dashboard</p>
 		
-	<div class="cards active">
-		<h3>Risk Score ^</h3>
-		<ul class="riskScore">
-			<li>CHA2DS2- VASc score <span>1</span></li>
-			<li>Framingham Risk Score <span>2</span></li>
-			<li>Stroke Risk Assessment <span>1</span></li>
+	 <div class="cards active">
+		<h3 class="riskScorePlanMT">Risk Score <span>^</span></h3>
+		<ul class="riskScore riskScorePlanMT">
+			<li class="list1">CHA2DS2- VASc score <span>1</span></li>
+			<li class="list2">Framingham Risk Score <span>2</span></li>
+			<li class="list3">Stroke Risk Assessment <span>1</span></li>
 		</ul>
-		<h3>Outcomes KPI ^</h3>
+		<h3>Outcomes KPI <span>^</span></h3>
 		<ul class="riskScore">
 			<li>Use of ICU <span>1</span></li>
 			<li>Return to Operation Theatre <span>1</span></li>
 			<li>Length of Stay in Hospital <span>1</span></li>
 		</ul>
-	</div>
+	</div> 
 	<div class="cards vitals">
-		<h2>Vitals</h2>
-		<img src="images/vitalsSmall.jpg" />
+		<h2 class="PlanMT">Vitals</h2>
+		<img class="PlanMTImg" src="images/heartRate.png" />
 	</div>
 	<div class="cards marginRgt0px MedicalImaging">
-		<h2>Medical Imaging</h2>
+		<h2 class="miTitle">Medical Imaging</h2>
 		<ul>
 			<li><strong>ECG: </strong>Mild Concentric left ventricular hypertrophy and mild left atrial enlargement</li>
-			<li><strong>Echocardiogram: </strong>Disappearance of atrial reverse flow, a decrease in systolic flow with a greater diastolic then systolic flow with a greater diastolic then systolic flow, a prolonged onset of systolic flow</li>
+			<li class="miList"><strong>Echocardiogram: </strong>Disappearance of atrial reverse flow, a decrease in systolic flow with a greater diastolic then systolic flow with a greater diastolic then systolic flow, a prolonged onset of systolic flow</li>
 		</ul>
 	</div>
 	
@@ -150,26 +604,27 @@
 		<h2>Lab Results</h2>
 		<ul>
 			<li><strong>Blood Glucose Level: </strong>319mg/dL</li>
-			<li><strong>Total Serum Cholesterol: </strong>214 mg/dL</li>
+			<li class="plan1-5hrspw"><strong>Total Serum Cholesterol: </strong>214 mg/dL</li>
 			<li><strong>Electrolytes: </strong>K+ 3.1 mmol/dL; Na+ 140 mmol/dL</li>
 			<li><strong>Urea: </strong>62 mg/dL</li>
 			<li><strong>Prothrombin Time: </strong>11.7 sec</li>
-			<li><strong>Creatinine Clearance (CrCI): </strong>50 ml/min</li>
+			<li class="plan1-325mg plan2-6hrspw plan3-6hrspw"><strong>Creatinine Clearance (CrCI): </strong>50 ml/min</li>
 		</ul>
 	</div>
 	<div class="cards CurrentDiagnosis">
 		<h2>Current Diagnosis</h2>
 		<ul>
 			<li><strong>History of: </strong>Hypertension, Heart Disease, Diabetes, Thyroid Disease, Hyperlipidemia, Sleep Apnea, Family History of CHD</li>
-			<li><strong>Symptoms: </strong>Palpitations, Chest Discomfort, Fatigue, Dizziness, Shortness of Breath</li>
+			<li class="plan1-325mg"><strong>Symptoms: </strong>Palpitations, Chest Discomfort, Fatigue, Dizziness, Shortness of Breath</li>
 		</ul>
 	</div>
 	<div class="cards marginRgt0px RiskFactors">
 		<h2>Risk Factors</h2>
 		<ul>
 			<li>Diabetes, Lung Disease and Sleep Apnea</li>
-			<li>Drinking alcohol</li>
+			<li class="Plan1500mg">Drinking alcohol</li>
 			<li>Smoking</li>
+			<li class="plan34hrspw">History of Ischemic heart disease or structural heart disease</li>
 		</ul>
 	</div>
 	
@@ -207,6 +662,7 @@
 
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/jquery.modal.min.js"></script>
+<script src="scripts/simulation.js"></script>
 <script>
 $(document).ready(function(){
  $("#fade").modal({
@@ -241,16 +697,18 @@ $('#tabs li a').click(function(){
 //  Visit http://roshanbh.com.np for this script and more.
 //  This notice MUST stay intact for legal use
 // --------------------------------->
-$(document).ready(function()
-{
-	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
-	$("#firstpane p.menu_head").click(function()
-    {
-		$(this).addClass('active').next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
-       	$(this).siblings().removeClass('active');
-	});
-	
+$(document).ready(function() {
+  // Slides the element with class "menu_body" when the paragraph with class "menu_head" is clicked
+  $("#firstpane p.menu_head").click(function() {
+    $(this).addClass('active').next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+    $(this).siblings().removeClass('active');
+  });
+  
+
+
+
 });
+
 </script>
 </body>
 </html>

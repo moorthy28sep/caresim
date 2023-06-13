@@ -468,10 +468,10 @@ ul.legends li span.green {
 	padding: 10px 25px 10px 0;
 }
 
-.simulationSlot {
+.simulationSlot img {
 	float: left;
-	width: 100%;
-	height: 150px;
+	width: 316px;
+	height: 190px;
 }
 
 .marginRgt0px {
@@ -739,26 +739,23 @@ a {cursor:pointer;}
 width: 100%;
 }
 .menu_head {
-	padding: 12px 10px 12px 100px;
+	padding: 12px 10px 12px 20px;
 	cursor: pointer;
 	position: relative;
 	margin: 0px;
 	font-weight: bold;
 	font-size: 90%;
-	background: #ffffff url(../images/notepad.png) 70px 12px no-repeat;
 	background-size: 4%;
 }
 .menu_head.active,
 .menu_head.active:hover {
 	background: #F1F1F1;
 	color: #460073;
-	border-bottom: 1px solid #460073;
-	
+	border-bottom: 1px solid #2A1459;
 }
 .menu_head:hover {
-	background: #2F0A5B url(../images/notepad.png) 70px 12px no-repeat;
+	background: #2F0A5B;
 	color: #fff;
-	background-size: 4%;
 }
 .menu_body {
 display: none;
@@ -776,30 +773,171 @@ color: #000000;
 text-decoration: underline;
 }
 
-.planWrapper {
+.menu_head span.notes,
+.menu_head.active:hover span.notes {
+	background: url(../images/notepad.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
 	float: left;
-	width: 100%;
-	background: #F1F1F1;
-	padding: 10px 0px;
-	font-size: 80%;
-	color: #2F0A5B;
+	background-size: 75%;
+	margin: 0px 20px;
+	margin-top: -3px;
 }
-.planWrapper:hover {
+
+.menu_head:hover span.notes {
+	background: url(../images/noteHover.png) top left no-repeat;
+	color: #460073;	
+	background-size: 75%;
+	margin-top: -3px;
+}
+
+.menu_head span.medThe,
+.menu_head.active:hover span.medThe {
+	background: url(../images/medicineSmall.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head:hover span.medThe {
+	background: url(../images/medicineSmallHover.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head span.surApproach,
+.menu_head.active:hover span.surApproach {
+	background: url(../images/knife.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head:hover span.surApproach {
+	background: url(../images/knifeHover.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head span.phyThe,
+.menu_head.active:hover span.phyThe {
+	background: url(../images/hand.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head:hover span.phyThe {
+	background: url(../images/handHover.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head span.nutThe,
+.menu_head.active:hover span.nutThe {
+	background: url(../images/plant.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head:hover span.nutThe {
+	background: url(../images/plantHover.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+.menu_head span.postDis,
+.menu_head.active:hover span.postDis {
+	background: url(../images/copy.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head:hover span.postDis {
+	background: url(../images/copyHover.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+.menu_head span.hospitalOps,
+.menu_head.active:hover span.hospitalOps {
+	background: url(../images/hospital.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+.menu_head:hover span.hospitalOps {
+	background: url(../images/hospitalHover.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-size: 120%;
+	margin-top: -3px;
+}
+
+
+.planWrapperParent {
+	background: #F1F1F1;
+	color: #460073;
+	padding: 2px 0px;
+	border-bottom: 1px solid #fff;
+	
+}
+.planWrapperParent.active,
+.planWrapperParent:hover {
 	background: #2F0A5B;
 	color: #fff;
 	cursor: pointer;
 }
+
+.planWrapper {
+	float: left;
+	width: 100%;	
+	padding: 0px 0px 3px;
+	font-size: 80%;
+	position: relative;
+}
+
 .planWrapper .plan {
 	float: left;
 	width: 50px;	
-	padding-left: 50px;
+	padding-left: 30px;
 	font-weight: bold;
-	
+	padding-top:5px;	
 }
 
 .planWrapper .medicines {
 	float: left;
-	width: 70px;
+	width: 90px;
+	padding-top:5px;
 }
 
 .planWrapper .dose {
@@ -810,17 +948,38 @@ text-decoration: underline;
 .planWrapper .action {
 	float: left;
 	width: 20px;
+	rotate: -180deg;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 4px;
 }
 
 .planWrapper .saved {
 	float: left;
-	width: 20px;
+    width: 20px;
+    background: url(../images/flag.png) 9px 3px no-repeat;
+    background-size: 55%;
+    height: 20px;
+	margin-left: 7px;
+}
+.planWrapperParent.active .planWrapper .saved,
+.planWrapperParent.active:hover .planWrapper .saved,
+.planWrapperParent:hover .planWrapper .saved{
+	background: url(../images/flagHover.png) 9px 3px no-repeat;
+	background-size: 55%;
+	cursor:pointer;
 }
 
 .cards h3 {
 	font-size: 110%;
 	font-weight: bold;
 	color: #ffffff;
+}
+
+.cards h3 span {
+	rotate: -180deg;
+	display: inline-block;
 }
 
 .cards ul.riskScore  {
@@ -840,4 +999,46 @@ text-decoration: underline;
 
 .cards ul.riskScore li span {
 	float: right;
+}
+
+.planWrapper {
+  position: relative; /* Add position relative to the planWrapper */
+}
+
+.dropdown {
+	background: #F1F1F1;
+    border: none;
+    font-size: 105%;
+    border-radius: 8px;
+    padding: 2px 10px 2px 5px;
+	margin-top: 1px;
+}
+
+.navBtmLink {
+	float: left;
+	border-top: 1px solid #460073;
+	width: 100%;
+	text-align: center;
+}
+
+.navBtmLink a {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 10px 60px;
+	background: #460073;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.PlanMTImg {
+	margin-top: 20px;
+	width: 220px;
+	height: 100px;
+}
+
+.displayNone {
+	display: none;
 }
