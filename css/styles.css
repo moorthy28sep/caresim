@@ -1042,3 +1042,65 @@ text-decoration: underline;
 .displayNone {
 	display: none;
 }
+
+a.modalLink {
+	padding: 0px; 
+	margin: 0px; 
+	font-weight: normal; 
+	color: #460073;
+	background: none;
+}
+.planWrapperParent:hover a.modalLink,
+.planWrapperParent.active a.modalLink,
+a.modalLink:hover {	
+	color: #fff;
+	text-decoration: none;
+	background: #460073;
+}
+
+ul.simIcon {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.simIcon li.injection,
+ul.simIcon li.injection:hover,
+ul.simIcon li.injection.active {
+	background: url(../images/injection.png) 9px 3px no-repeat;
+	background-size: 55%;
+	cursor:pointer;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 30px;
+	height: 30px;
+}
+ul.simIcon li.injection:hover,
+ul.simIcon li.injection.active {
+	background: url(../images/injection-hover.png) 9px 3px no-repeat;
+	background-size: 55%;
+	cursor:pointer;
+}
+
+ul.simIcon li.fix,
+ul.simIcon li.fix:hover,
+ul.simIcon li.fix.active {
+	background: url(../images/fix.png) 9px 3px no-repeat;
+	background-size: 55%;
+	cursor:pointer;
+	float: left;
+	margin: 0px;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.simIcon li.fix:hover,
+ul.simIcon li.fix.active {
+	background: url(../images/fix-hover.png) 9px 3px no-repeat;
+	background-size: 55%;
+	cursor:pointer;
+}

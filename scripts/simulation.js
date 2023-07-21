@@ -471,4 +471,21 @@ $(document).ready(function() {
 		}		
 	});
 	
+	$('#Catheter').on('click',function(){
+		$(this).attr('src','images/2-Zoom.gif');
+		$('#modTitle').text();
+	});
+	
+	$('.simIcon li.injection').on('click',function(){
+		$(this).addClass('active');
+		$('#modTitle').text('Attach Sheath');
+		$('#Catheter').attr('src','images/3-Incision.gif');
+	});
+	
+	$('.simIcon li.fix').on('click',function(){
+		$(this).addClass('active');
+		$('#modTitle').text('Insert Catheter');
+		$('#Catheter').attr('src','images/4-Catheter.gif');
+	});
+	
 });

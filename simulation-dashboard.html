@@ -320,37 +320,51 @@
 	<div class="planWrapperParent">
 	<div class="planWrapper">
 		<div class="plan">Plan 1</div>
-		<div class="medicines">Aspirin</div>
+		<div class="medicines"><a href="#ex12" rel="modal:open" class="modalLink">Catheter Ablation</a></div>
 		<div class="dose">
 		
-		 <select class="dropdown">
-			<option value="0">125 mg/ daily</option>
-			<option value="1">325 mg/ daily</option>
-			<option value="2">500 mg/ daily</option>
-		</select>
+		&nbsp;
 
 </div>
 		<div class="saved"></div>
 	</div>
 	<br class="clearBoth" />
+	<div id="ex12" class="modal">
+			<div class="modalHeader">
+			<h2>Catheter Ablation</h2>
+			
+			
+</div>
+
+<div class="modalBody" style="padding: 10px 15px">
+	<h3 style="padding-bottom: 10px; width: 50%; float: left;" id="modTitle">Select Incision Area</h3>
+	<div style="width: 49%; float: left;">
+				<ul class="simIcon">
+					<li class="injection"></li>
+					<li class="fix"></li>
+				</ul>
+			</div>
+	<p style="padding-bottom: 10px; float: left; clear: both;">Echocardiogram done in last month- showed disappearance of atrial reverse flow, a decrease in systolic flow with a greater diastolic than systolic flow</p>
+	<img src="images/1-Screenshot.gif" alt="" width="480px" height="480px" id="Catheter" />
+</div>
+        
+		</div>
+	
 </div>
 
 <div class="planWrapperParent">
 	<div class="planWrapper">
 		<div class="plan">Plan 2</div>
-		<div class="medicines">Aspirin</div>
-		<div class="dose">
+		<div class="medicines" style="width:95px;">Mitral Valve Repair</div>
+		<div class="dose" style="width:95px;">
 		
-		 <select class="dropdown">
-			<option value="0">125 mg/ daily</option>
-			<option value="1">325 mg/ daily</option>
-			<option value="2">500 mg/ daily</option>
-		</select>
+		 &nbsp;
 
 </div>
 		<div class="saved"></div>
 	</div>
 	<br class="clearBoth" />
+	
 </div>
 
  </div>
@@ -710,5 +724,7 @@ $(document).ready(function() {
 });
 
 </script>
+
+
 </body>
 </html>
