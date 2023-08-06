@@ -278,9 +278,9 @@ a.startPageInputSubmit {
 }
 
 .simContentBg {
-	background: #2F0A5B url(../images/Background.gif) 170px -10px no-repeat;
+	background: #2F0A5B url(../images/Background.gif) center center no-repeat;
 	min-height: 514px;
-	background-size: 70%;
+	background-size: contain;
 }
 
 ul.legends {
@@ -455,6 +455,10 @@ ul.legends li span.green {
 .backBtn {	
 	float:left;
 	margin: 10px 0px 0px 28px;
+}
+
+.header {
+	background: #FFFFFF;
 }
 
 .simLeftHeader {
